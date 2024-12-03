@@ -1,7 +1,46 @@
 <html>
   <head>
     <style>
-* {box-sizing: border-box}
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn28 {
+  background-image: linear-gradient(
+    to right,
+    #eb3941,
+    #f15e64,
+    #e14e53,
+    #e2373f
+  );
+  box-shadow: 0 5px 15px rgba(242, 97, 103, 0.4);
+}* {box-sizing: border-box}
 body {font-family: calibri, sans-serif;}
 
 /* Style the tab */
@@ -10,7 +49,7 @@ body {font-family: calibri, sans-serif;}
   border: 4px solid white;
   background-color: rgb(238, 37, 54);
   width: 30%;
-  height: 600px;
+  height: 900px;
 }
 
 /* Style the buttons inside the tab */
@@ -47,7 +86,7 @@ body {font-family: calibri, sans-serif;}
   border: 1px solid #ccc;
   width: 70%;
   border-left: none;
-  height: 600px;
+  height: 900px;
   background-color: white
 } body {
   font-family: Arial, Helvetica, sans-serif;
@@ -97,8 +136,12 @@ body {font-family: calibri, sans-serif;}
 
 <div id="Home" class="tabcontent">
   <h3>Home</h3>
-  <p>Singapore is a beautiful, vibrant country with food, attractions and many more! With places like Orchard Road, Gardens by the Bay and Hawker stalls, I can understand why you would be eager to visit! This travel guide is here to help you navigate every difficult point in time where you might need help.<br><br>
-  <iframe width="560" height="150" src="https://www.youtube.com/embed/T3KYywFTpY0?si=NDnJHZwi-qtPRkH9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="900" height="150" src="https://www.youtube.com/embed/T3KYywFTpY0?si=NDnJHZwi-qtPRkH9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p>Singapore is a beautiful, vibrant country with food, attractions and many more! With places like Orchard Road, Gardens by the Bay and Hawker stalls, I can understand why you would be eager to visit! This travel guide is here to help you navigate every difficult point in time where you might need help.<br><br>
+  Whether you are planning a road trip from Malaysia, on a layover from an exciting trip ahead, or you simply want to see Singapore for yourself, this travel guide has everything you will ever need! Below, you will find buttons leading to a couple of different websites -along side this one- to assist you in your plans!<br>
+
+<a href="https://www.lonelyplanet.com/singapore"><button class="bn632-hover bn28">Another travel guide!</button></a>
+<a href="https://www.emirates.com/bh/english/destinations/bah/sin/flights-from-bahrain-to-singapore/"><button class="bn632-hover bn28">Where to book your plane tickets!</button></a>
+<a href="https://www.willflyforfood.net/the-first-timers-travel-guide-to-singapore/"><button class="bn632-hover bn28">A few things that you should know!</button></a>
   </p>
 </div>
 
@@ -157,4 +200,3 @@ function topFunction() {
   </body>
 
 </html>
-
